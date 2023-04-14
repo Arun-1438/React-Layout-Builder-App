@@ -1,0 +1,102 @@
+/* Write your CSS here */
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.left-navbar{
+    background-color: #e2e8f0;
+    text-align: center;
+    padding: 30px;
+    color:  #64748b;
+    margin-bottom: 10px;
+}
+.list-container{
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.list-item{
+    font-size: 22px;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+.content{
+    background-color: #f1f5f9;
+    color: #64748b;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.content h3{
+    margin-bottom: 15px;
+}
+.content p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.right-navbar{
+    background-color: #e2e8f0;
+    padding: 30px;
+    text-align: center;
+    color:  #64748b;
+    margin-bottom: 10px;
+}
+.right-navbar h3{
+    margin-bottom: 15px;
+}
+.add-container{
+    display: flex;
+    justify-content: space-between;
+}
+.add{
+    border: 1px solid #64748b;
+    width: 50%;
+    margin: 10px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (min-width : 768px){
+    .body-container{
+        display: flex;
+        column-gap: 10px;
+        justify-content: space-around;
+        height: 70vh;
+    }
+    .left-navbar{
+        width: 25%;
+        flex-shrink: 1;
+        text-align: left;
+        margin-right: auto;
+    }
+    .list-container{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+    .add-container{
+        flex-direction: column;
+        align-items: center;
+        height: 90%;
+    }
+    .add{
+        width: 90%;
+        height: 45%;
+    }
+    .content{
+        width: 50%;
+        flex-grow: 1;
+        flex-shrink: 1;
+        text-align: left;
+    }
+    .right-navbar{
+        width: 25%;
+        flex-shrink: 1;
+        text-align: left;
+        margin-left: auto;
+    }
+}

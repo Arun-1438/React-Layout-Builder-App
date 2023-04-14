@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+.controller-container{
+    background-color: #475569;
+    padding: 40px;
+    width: 100%;
+}
+.title{
+    margin-bottom: 30px;
+    color: #f1f5f9;
+    text-align: center;
+}
+.input-div{
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+}
+.checkbox{
+    width: 20px;
+    height: 20px;
+    accent-color: blue;
+}
+.label{
+    font-size: 20px;
+    margin-left: 15px;
+    font-weight: 600;
+    color: #e2e8f0;
+}
